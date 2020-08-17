@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
      */
     public void showFroyoOrder(View view) {
 
-        mOrderMessage = getString(R.string.donut_order_message);
+        mOrderMessage = getString(R.string.froyo_order_message);
         displayToast(mOrderMessage);
     }
 
