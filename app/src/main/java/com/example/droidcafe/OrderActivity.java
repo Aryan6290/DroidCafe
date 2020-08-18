@@ -36,6 +36,7 @@ public class OrderActivity extends AppCompatActivity implements AdapterView.OnIt
 
        textView.setText(message);
        Spinner spinner = findViewById(R.id.label_spinner);
+
         if (spinner != null) {
             spinner.setOnItemSelectedListener(this);
         }
